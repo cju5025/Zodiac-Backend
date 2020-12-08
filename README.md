@@ -1,24 +1,43 @@
-# README
+# ZodiHack
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ZodiHack is a webpage designed to read a given zodiac sign's horoscope for the current date as well as the day prior and the day after.
 
-Things you may want to cover:
+## Technologies Used
 
-* Ruby version
+* ruby '2.6.1'
+* 'rails', '~> 6.0.3', '>= 6.0.3.4'
+* 'puma', '~> 4.1'
+* 'bootsnap', '>= 1.4.2'
+* 'rack-cors'
+* 'byebug'
 
-* System dependencies
+## How To Use
 
-* Configuration
+### Start Up
 
-* Database creation
+* Fork and Clone GitHub repository
+* Open in editor of choice
+* Run the following in terminal
+```
+$ bundle install
+$ rails db:migrate
+$ rails db:seed
+$ rails s
+```
+## Backend Description
 
-* Database initialization
+Primarily used to store name and image for each zodiac sign to connect with the frontend and display on the webpage.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Seed Examples
 
-* Deployment instructions
+```
+Zodiac.create(name: "Aries", image: "https://i.ibb.co/V3nwmmn/Aries.png")
+Zodiac.create(name: "Taurus", image: "https://i.ibb.co/6w8J27K/Taurus.png")
+Zodiac.create(name: "Gemini", image:"https://i.ibb.co/WHbKZCz/Gemini.png")
+```
 
-* ...
+## Contributors
+
+* Alexander Gabriel - @kosmos02
+* Colter Ulrich - @cju5025
