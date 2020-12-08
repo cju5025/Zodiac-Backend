@@ -33,7 +33,7 @@ Primarily used to store name and image for each zodiac sign to connect with the 
 
 ### Seed Examples
 
-```
+``` Ruby
 Zodiac.create(name: "Aries", image: "https://i.ibb.co/V3nwmmn/Aries.png")
 Zodiac.create(name: "Taurus", image: "https://i.ibb.co/6w8J27K/Taurus.png")
 Zodiac.create(name: "Gemini", image:"https://i.ibb.co/WHbKZCz/Gemini.png")
