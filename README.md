@@ -1,6 +1,8 @@
 # ZodiHack
 
-ZodiHack is a webpage designed to read a given zodiac sign's horoscope for the current date as well as the day prior and the day after.
+ZodiHack is a webpage designed to read a given zodiac sign's horoscope for the current date as well as the day prior and the day after. Note that this is only the backend portion of a full stack project. See below for link to frontend repository.
+
+* https://github.com/cju5025/Zodiac-Frontend
 
 ## Technologies Used
 
